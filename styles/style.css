@@ -24,3 +24,28 @@
   font-size: 85px;
   font-weight: 900;
 }
+/* Discount section style */
+.header .offer_discount_section {
+  text-align: center;
+  margin: 120px 399px;
+}
+.header .offer_discount_section .discount_percentage {
+  color: #f00;
+  text-align: center;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.header .offer_discount_section .message {
+  color: #f00;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+.header .offer_discount_section .category_item {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 16px;
+}
