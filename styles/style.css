@@ -1,0 +1,26 @@
+/* Heaader banner section style */
+.header .banner1_secttion {
+  background-image: url(../resources/Banner\ Image.png);
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  margin: 50px 140px;
+  /* background:linear-gradient(180deg,black) */
+  /* background: linear-gradient(180deg, #070211 0%,(155, 146, 173, 0) 100%); */
+}
+
+.header .banner1_secttion h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  padding: 160px 0 0 0;
+  width: auto;
+  height: 40px;
+}
+.header .banner1_secttion h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 85px;
+  font-weight: 900;
+}
