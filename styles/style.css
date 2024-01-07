@@ -1,3 +1,7 @@
+/* Shared style */
+* {
+  font-family: "Merriweather Sans", sans-serif;
+}
 /* Heaader banner section style */
 .header .banner1_secttion {
   background-image: url(../resources/Banner\ Image.png);
