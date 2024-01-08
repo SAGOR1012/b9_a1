@@ -64,7 +64,7 @@ body {
   background-image: url(../resources/Vectorrr.png);
   background-size: cover;
   /* width: auto; */
-  width: auto;
+  width: 1320px;
   height: 600px;
   border-radius: 16px;
   display: flex;
@@ -100,7 +100,7 @@ body {
 /* Event detales section style */
 .event_detals_container {
   /* width: 1320px; */
-  width: auto;
+  width: 1320px;
   height: 482px;
   background-image: linear-gradient(
     rgb(236, 172, 220),
@@ -169,4 +169,64 @@ body {
   border-radius: 12px;
   box-shadow: 0 4px 8px 0 rgba(236, 70, 70, 0.2),
     0 6px 20px 0 rgba(19, 1, 1, 0.19);
+}
+/* Subscribe section style */
+.subscribe_container {
+  display: flex;
+  display: inline-block;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  width: 1320px;
+  height: 690px;
+  text-align: center;
+  margin-top: 120px;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.subscribe_container img {
+  width: 150px;
+  height: 150px;
+  padding: 40px;
+}
+.subscribe_container h2 {
+  color: #8d5cef;
+  font-size: 48px;
+  font-weight: 900;
+}
+.subscribe_container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 100%;
+  padding: 20px 50px;
+}
+.subscribe_container .input_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+}
+.subscribe_container .input_container input[type="email"] {
+  background-color: #fff;
+  border: none;
+  border-radius: 50px 0 0px 50px;
+  /* padding: 20px; */
+  height: 72px;
+  width: 500px;
+  text-align: center;
+}
+.subscribe_container .input_container input[type="submit"] {
+  border-radius: 0px 50px 50px 0px;
+  border: none;
+  background: #f00;
+  width: 210px;
+  /* padding: 20px; */
+  height: 72px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.input_container input[type="submit"]:hover {
+  background: rgb(0, 3, 255);
 }
