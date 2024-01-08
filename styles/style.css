@@ -63,7 +63,8 @@ body {
 .banner2section {
   background-image: url(../resources/Vectorrr.png);
   background-size: cover;
-  width: 1320px;
+  /* width: auto; */
+  width: auto;
   height: 600px;
   border-radius: 16px;
   display: flex;
@@ -98,7 +99,8 @@ body {
 }
 /* Event detales section style */
 .event_detals_container {
-  width: 1320px;
+  /* width: 1320px; */
+  width: auto;
   height: 482px;
   background-image: linear-gradient(
     rgb(236, 172, 220),
@@ -133,4 +135,38 @@ body {
   background: #f00;
   border: none;
   margin-top: 48px;
+}
+/* product section style */
+.product_container {
+  /* width: 1300px; */
+  width: auto;
+  height: 7335px;
+  margin: 120px 110px;
+  border-radius: 10px;
+}
+.product_container h3 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+.product_container h2 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+}
+.product_container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 70%;
+}
+.product_container .product_image_container .div {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+}
+.product_container .product_image_container .div .image:hover {
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(236, 70, 70, 0.2),
+    0 6px 20px 0 rgba(19, 1, 1, 0.19);
 }
