@@ -35,7 +35,9 @@ body {
 /* Discount section style */
 .header .offer_discount_section {
   text-align: center;
-  margin: 120px 399px;
+  padding-top: 120px;
+  width: 1320px;
+  height: auto;
 }
 .header .offer_discount_section .discount_percentage {
   color: #f00;
@@ -64,9 +66,9 @@ body {
   width: 1320px;
   height: 600px;
   border-radius: 16px;
-  margin: 50px 110px;
   display: flex;
-  padding: 50px 10px 0px 10px; /* top right bottom left */
+  margin: 120px 110px;
+  padding: 50px 5px 0px 0px; /* top right bottom left */
 }
 
 .banner2section .welcome_text_container .welcome_text {
@@ -93,4 +95,42 @@ body {
   margin-left: 126px;
   padding-top: 48px;
   /* margin: 0 1060px 0 158px; */
+}
+/* Event detales section style */
+.event_detals_container {
+  width: 1320px;
+  height: 482px;
+  background-image: linear-gradient(
+    rgb(236, 172, 220),
+    rgb(215, 215, 205),
+    rgb(254, 254, 254)
+  );
+  margin: 50px 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.event_detals_container .detal_box {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.event_detals_container .detal_box span {
+  color: #f00;
+}
+.event_detals_container .detal_box #btn_join {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #f00;
+  border: none;
+  margin-top: 48px;
 }
