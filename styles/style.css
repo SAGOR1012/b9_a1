@@ -139,6 +139,52 @@ body {
   border: none;
   margin-top: 48px;
 }
+/* Offer container  */
+.offer_container {
+  /* background-color: tomato; */
+  width: 1320px;
+  height: 482px;
+  margin: 50px 110px;
+  border-radius: 10px;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 90px;
+}
+.offer_container h3 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.offer_container .commingsoon_offer h2 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+}
+.offer_container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.offer_container .image_celebration img {
+  border: 20px solid rgb(255, 3, 3);
+  border-radius: 50%;
+  padding: 30px;
+  margin-right: 60px;
+}
+.offer_container .text_container h1 {
+  color: #f00;
+  font-size: 48px;
+  font-weight: 700;
+  /* margin-left: 20px; */
+}
+.offer_container .text_container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+}
+
 /* product section style */
 .product_container {
   /* width: 1300px; */
