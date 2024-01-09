@@ -10,7 +10,12 @@ body {
 }
 /* Heaader banner section style */
 .header .banner1_secttion {
-  background-image: url(../resources/Banner\ Image.png);
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../resources/Banner\ Image.png);
   background-size: cover;
   width: 1320px;
   height: 600px;
@@ -27,7 +32,7 @@ body {
   font-weight: 400;
   padding: 160px 0 0 0;
   width: auto;
-  height: 40px;
+  height: 20px;
 }
 .header .banner1_secttion h2 {
   color: #fff;
@@ -65,7 +70,12 @@ body {
 }
 /* main section banner 2 style */
 .banner2section {
-  background-image: url(../resources/Vectorrr.png);
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../resources/Vectorrr.png);
   background-size: cover;
   /* width: auto; */
   width: 1320px;
@@ -97,9 +107,12 @@ body {
   font-weight: 700;
   background: none;
   border: none;
-  margin-left: 126px;
+  margin-left: 100px;
   padding-top: 48px;
   /* margin: 0 1060px 0 158px; */
+}
+.banner2section .welcome_text_container .btn_join:hover {
+  color: rgb(233, 198, 110);
 }
 /* Event detales section style */
 .event_detals_container {
